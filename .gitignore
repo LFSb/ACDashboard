@@ -1,0 +1,6 @@
+*.suo
+*.csproj.user
+ACDashboard/Bin/*
+ACDashboard/obj/*
+ACDashboard/Assets/*.png
+ACDashboard/Assets/Tiles/*.png
