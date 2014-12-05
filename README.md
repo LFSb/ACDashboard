@@ -1,0 +1,1 @@
+Simple Dashboard app for Assetto Corsa on the Windows Phone 8.1 platform. Is built around http://www.simracing-tools.de/simtools/index.php/en/dashboard/.
