@@ -88,6 +88,15 @@ namespace ACDashboard.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string BrowserNavigationFormat {
+            get {
+                return ResourceManager.GetString("BrowserNavigationFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to /Views/Dashboard.xaml.
         /// </summary>
         public static string DashboardUri {

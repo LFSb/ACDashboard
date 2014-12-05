@@ -8,7 +8,7 @@ namespace ACDashboard.Models
 
     public String DashboardName { get; set; }
 
-    public bool LoadSettings()
+    public bool TryLoadSettings()
     {
       
     }
