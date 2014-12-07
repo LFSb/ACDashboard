@@ -4,3 +4,5 @@ ACDashboard/Bin/*
 ACDashboard/obj/*
 ACDashboard/Assets/*.png
 ACDashboard/Assets/Tiles/*.png
+packages/*
+ACDashboard/Toolkit.Content/*.png
