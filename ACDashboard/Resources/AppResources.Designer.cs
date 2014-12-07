@@ -97,11 +97,38 @@ namespace ACDashboard.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dashboard.
+        /// </summary>
+        public static string DashboardSettingName {
+            get {
+                return ResourceManager.GetString("DashboardSettingName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to /Views/Dashboard.xaml.
         /// </summary>
         public static string DashboardUri {
             get {
                 return ResourceManager.GetString("DashboardUri", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HostIP.
+        /// </summary>
+        public static string HostIPSettingName {
+            get {
+                return ResourceManager.GetString("HostIPSettingName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to http://.
+        /// </summary>
+        public static string HostIPSettingPlaceHolder {
+            get {
+                return ResourceManager.GetString("HostIPSettingPlaceHolder", resourceCulture);
             }
         }
         
@@ -124,7 +151,7 @@ namespace ACDashboard.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to /Views/SettingsModel.xaml.
+        ///   Looks up a localized string similar to /Views/Settings.xaml.
         /// </summary>
         public static string SettingsUri {
             get {

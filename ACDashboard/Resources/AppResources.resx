@@ -141,6 +141,15 @@
     <value>/Views/Dashboard.xaml</value>
   </data>
   <data name="SettingsUri" xml:space="preserve">
-    <value>/Views/SettingsModel.xaml</value>
+    <value>/Views/Settings.xaml</value>
+  </data>
+  <data name="DashboardSettingName" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="HostIPSettingName" xml:space="preserve">
+    <value>HostIP</value>
+  </data>
+  <data name="HostIPSettingPlaceHolder" xml:space="preserve">
+    <value>http://</value>
   </data>
 </root>

@@ -13,7 +13,7 @@
     SupportedOrientations="Portrait" Orientation="Portrait"
     shell:SystemTray.IsVisible="false">
   <Grid HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480">
-    <Button Content="SettingsModel" Width="480" Click="On_Click_Settings_Button" Margin="0,642,0,79"/>
+    <Button Content="Settings" Width="480" Click="On_Click_Settings_Button" Margin="0,642,0,79"/>
     <Button Content="Dashboard" Click="On_Click_Dashboard_Button" Width="480" Margin="0,721,0,0"/>
   </Grid>
   <!--LayoutRoot is the root grid where all page content is placed-->

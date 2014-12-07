@@ -7,10 +7,5 @@ namespace ACDashboard.Models
     public String HostIp { get; set; }
 
     public String DashboardName { get; set; }
-
-    public bool TryLoadSettings()
-    {
-      
-    }
   }
 }

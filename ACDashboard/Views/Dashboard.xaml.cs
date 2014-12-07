@@ -1,6 +1,5 @@
 ﻿using System;
 using ACDashboard.Models;
-using ACDashboard.Resources;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
@@ -21,15 +20,7 @@ namespace ACDashboard.Views
 
     private void LoadSettings()
     {
-      _settings = new SettingsModel();
-      if (_settings.TryLoadSettings())
-      {
-
-      }
-      else
-      {
-        NavigationService.Navigate(new Uri(AppResources.SettingsUri, UriKind.Relative));
-      }
+      
     }
   }
 }
